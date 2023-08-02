@@ -1,14 +1,19 @@
 # Project
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains the source code for the Hands On Lab Code to Cloud.
 
-As the maintainer of this project, please make a few updates:
+## Prerequisites
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+To create the environment for this Hands On Lab you will need :
+
+- An [Azure subscription](https://azure.microsoft.com/en-us/free/)
+- The [Az Bicep CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) in version 0.16 or higher
+- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) in version 1.4.5  
+- A GitHub account with a [personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with the `repo` scope
+
+## Deployment
+
+All the instructions to deploy the environment are available in the [infra-starter](./infra-starter/DEPLOY.md) folder.
 
 ## Contributing
 

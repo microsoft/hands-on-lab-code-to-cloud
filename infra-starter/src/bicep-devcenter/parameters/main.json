@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceNaming": {
+            "value": {
+                "environment": "pro",
+                "location": "westeurope",
+                "region": "we",
+                "domain": "bld",
+                "owner": "ms",
+                "resourceSuffix": "01",
+                "tags": {
+                    "creator": "bicep",
+                    "repository": "hands-on-lab-code-to-cloud"
+                }
+            }
+        },
+        "devcenterSettings": {
+            "value": {
+                "definitions": [
+                    {
+                        "name": "win-11-vs-2022",
+                        "image": "win-11-ent-m365-apps-vs-2022",
+                        "compute": "8-vcpu-32gb-mem",
+                        "storage": "256gb-ssd"
+                    }
+                ],
+                "environmentTypes": [
+                    "dev",
+                    "stg",
+                    "pro"
+                ],
+                "catalogs": [
+                    {
+                        "name": "azure-sample-deployment-environments",
+                        "gitCloneUri": "https://github.com/microsoft/hands-on-lab-code-to-cloud.git",
+                        "branch": "main",
+                        "folderPath": "/environments"
+                    }
+                ],
+                "project": {
+                    "description": "Build 2023 project",
+                    "pools": [
+                        {
+                            "devBoxDefinitionName": "win-11-vs-2022",
+                            "administrator": "Enabled"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
