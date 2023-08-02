@@ -1,5 +1,7 @@
 # Sample Catalog
 
+This folder is an extract of the folder `Environment` in the official Azure repository: https://github.com/Azure/deployment-environments
+
 The sample Catalog consists of a few catalog items (ARM Template + associated manifest) to help you get started with the service. You can fork the sample catalog and create your catalog to use with DevCenter.
 
 ## Catalog Items

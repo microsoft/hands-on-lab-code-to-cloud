@@ -8,12 +8,12 @@ To create the environment for this Hands On Lab you will need :
 
 - An [Azure subscription](https://azure.microsoft.com/en-us/free/)
 - The [Az Bicep CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) in version 0.16 or higher
-- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) in version 1.4.5  
+- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) in version 1.4.5 or higher
 - A GitHub account with a [personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with the `repo` scope
 
 ## Deployment
 
-All the instructions to deploy the environment are available in the [infra-starter](./infra-starter/DEPLOY.md) folder.
+All the instructions to deploy the environment to be able to do this Hands On Lab are available in the [infra-starter](./infra-starter/DEPLOY.md) folder.
 
 ## Contributing
 
