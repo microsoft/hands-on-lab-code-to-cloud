@@ -1,6 +1,6 @@
-# Project
+# Code to Cloud
 
-This repository contains the source code for the Hands On Lab Code to Cloud.
+This Hands On Lab will let you discover and practice the Azure Dev Center and Azure Dev Box.
 
 ## Prerequisites
 
