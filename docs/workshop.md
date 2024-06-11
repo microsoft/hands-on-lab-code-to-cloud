@@ -5,6 +5,7 @@ title: Product Hands-on Lab - Code to Cloud
 short_title: Code to Cloud
 description: This workshop will cover Microsoft Dev Box, Az Dev CLI.
 level: beginner                         # Required. Can be 'beginner', 'intermediate' or 'advanced'
+navigation_numbering: false
 authors:                                # Required. You can add as many authors as needed      
   - Damien Aicheh
   - Lucas Peirone
